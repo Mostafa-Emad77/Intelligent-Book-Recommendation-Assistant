@@ -1,13 +1,103 @@
-## BookBot - Your Intelligent Book Recommendation Assistant
+# BookBot - AI Book Recommendation Assistant
 
+## 📚 Overview
 
-## Project Overview
-BookBot is an intelligent chatbot designed to revolutionize the way users discover new and exciting books, showcasing a blend of natural language processing and user-centric design.
+BookBot is a personalized book recommendation system that uses AI to suggest books based on user preferences through a 4-question interaction.
 
-## Features
+## 📸 Screenshots
 
-- **Personalized Recommendations:** Engage in a dynamic conversation with BookBot to receive book recommendations tailored to your unique preferences.
+![Chat Interface](interface.png)
+*Main chat interface where users answer questions*
 
-- **Safe Interaction:** BookBot incorporates content moderation to ensure a safe and positive user experience.
+![Book Recommendations](recommendations.png)
+*Personalized book recommendations view*
 
-- **Tech Stack:** Developed using Python, OpenAI API, and the `panel` library for the user interface.
+## 🎯 Core Features
+
+* Interactive questionnaire
+* AI-powered book recommendations
+* User-friendly chat interface
+* Mobile responsive design
+
+## 🛠️ Technical Stack
+
+* **Frontend:** Next.js, TypeScript
+* **Styling:** Tailwind CSS
+* **UI Components:** shadcn/ui
+* **State Management:** React Hooks
+
+## 💻 Installation
+
+```bash
+git clone https://github.com/Mostafa-Emad77/bookbot.git
+cd bookbot
+pnpm install
+```
+
+## ⚙️ Configuration
+
+Create a `.env.local` file:
+
+```env
+OPENAI_API_KEY=your_api_key_here
+```
+
+## 🚀 Development
+
+```bash
+pnpm dev
+```
+
+Visit `http://localhost:3000`
+
+## 📁 Project Structure
+
+```
+bookbot/
+├── app/
+│   ├── chat/
+│   └── api/
+├── components/
+│   ├── chat/
+│   └── ui/
+├── lib/
+└── public/
+```
+
+## 🤖 Question Flow
+
+1. Genre Preferences
+2. Recent Reading History
+3. Time Availability
+4. Mood/Theme Preferences
+
+## 📱 Mobile Support
+
+* Fully responsive design
+* Custom mobile hooks
+* Touch-friendly interface
+* Adaptive layout
+
+## 🔒 Security
+
+* API Key Authentication
+* Protected Routes
+* Secure Environment Variables
+
+## 📄 License
+
+MIT License
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Open PR
+
+## 📫 Support
+
+* GitHub Issues
+* Documentation Wiki
+* Email Support
