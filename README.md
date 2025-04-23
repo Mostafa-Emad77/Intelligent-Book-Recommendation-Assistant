@@ -39,7 +39,7 @@ pnpm install
 Create a `.env.local` file:
 
 ```env
-OPENAI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key_here
 ```
 
 ## 🚀 Development
